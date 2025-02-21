@@ -1,0 +1,49 @@
+@import './_base.scss';
+@import './_reset.scss';
+@import './_typography.scss';
+@import './buttons.scss';
+@import 'primeicons/primeicons.css';
+
+*,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+ol,
+li,
+blockquote,
+pre,
+code,
+span,
+button,
+input,
+textarea,
+label,
+small {
+  font-family: 'Inter', serif;
+}
+
+.view-wrapper {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+
+  &--extedned {
+    @extend .view-wrapper;
+    max-width: 1200px;
+  }
+}
+
+.center {
+  margin: 0 auto;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+}

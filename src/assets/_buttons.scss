@@ -1,0 +1,29 @@
+.app-button {
+  padding: 20px;
+  background-color: var(--vt-c-blue-background);
+  border-radius: 8px;
+  color: var(--vt-c-white);
+  transition: opacity 0.3s;
+
+  &:hover:not(:disabled) {
+    opacity: 0.8;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+  }
+
+  &--md {
+    padding: 15px;
+  }
+
+  &--text {
+    padding: 0;
+    background-color: transparent;
+  }
+
+  &--blue,
+  &--text {
+    color: var(--vt-c-blue);
+  }
+}
