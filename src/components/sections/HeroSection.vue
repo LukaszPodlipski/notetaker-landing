@@ -2,8 +2,8 @@
   <div id="hero" class="hero-section">
     <div class="flex flex-col items-center justify-center gap-8 mb-16">
       <div class="flex flex-col items-center justify-center">
-        <h1 class="text-header-3xl text-gradient text-center">Free yourself from the documentation </h1>
-        <h1 class="text-header-3xl text-gradient text-center">burden; focus on patient care.</h1>
+        <h1 class="text-header-3xl text-gradient text-center">Free yourself from the documentation</h1>
+        <h1 class="text-header-3xl text-gradient text-center">burden and focus on patient care.</h1>
       </div>
       <p class="text-header-m text-center max-w-[800px]">
         Babla is an open-source tool designed to automate medical documentation by transcribing and structuring medical interviews.

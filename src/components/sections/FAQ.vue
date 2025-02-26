@@ -5,7 +5,7 @@ const faqItems = ref([
   {
     question: 'Are you HIPAA and GDPR compliant?',
     answer:
-      "Yes, we are HIPAA and GDPR compliant. We use AWS-managed, compliant services.",
+      "Notetaker can be easily configured to be HIPPA and GDPR compliant - we provide all the necessary tools to rely fully on local models using WhisperX and Ollama, making it simply a matter of selecting the right options during setup.",
     collapsed: true,
   },
   {
