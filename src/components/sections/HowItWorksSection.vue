@@ -1,25 +1,37 @@
 <template>
   <div id="howItWorks" class="how-it-works-section">
     <div class="flex flex-col items-center justify-center gap-16">
-      <h1 class="text-header-xl leading-10">Test the Open Source Demo</h1>
+      <h1 class="text-header-3xl text-gradient text-center">
+        Test the Open Source Demo
+      </h1>
 
       <div class="card view-wrapper--extedned items-center flex-wrap">
         <div class="flex flex-col gap-4 column">
           <span class="text-header-m--bold"
-            >Focus entirely on patient care while Babla handles the documentation—automatically transcribing medical interviews, summarizing key insights, and structuring notes in your desired format. Streamline your workflow and reduce administrative burden.
-
+            >Focus entirely on patient care while Babla handles the
+            documentation—automatically transcribing medical interviews,
+            summarizing key insights, and structuring notes in your desired
+            format. Streamline your workflow and reduce administrative burden.
           </span>
           <span class="text-caption-m text-grey-dark"
-            >The application comes as a ready-to-deploy Docker service, complete with a demo interface that showcases its core capabilities. Whether integrated into an existing system or used as is, the tool streamlines the documentation workflow, reducing administrative overhead while ensuring no critical detail is missed.
-            </span
-          >
+            >The application comes as a ready-to-deploy Docker service, complete
+            with a demo interface that showcases its core capabilities. Whether
+            integrated into an existing system or used as is, the tool
+            streamlines the documentation workflow, reducing administrative
+            overhead while ensuring no critical detail is missed.
+          </span>
           <span class="text-caption-m text-grey-dark"
-            >With the ability to generate the output in multiple formats, the tool can easily fit into the preexisting EHR environment. See the Demo!
+            >With the ability to generate the output in multiple formats, the
+            tool can easily fit into the preexisting EHR environment. See the
+            Demo!
           </span>
         </div>
         <div class="card__video-container column h-max">
           <video controls>
-            <source src="@/assets/videos/howItWorks.mp4#t=0.1" type="video/mp4" />
+            <source
+              src="@/assets/videos/howItWorks.mp4#t=0.1"
+              type="video/mp4"
+            />
           </video>
         </div>
       </div>
@@ -41,7 +53,11 @@
 
 .card {
   background: rgb(224, 234, 252);
-  background: linear-gradient(180deg, rgba(224, 234, 252, 1) 23%, rgba(249, 251, 254, 1) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(224, 234, 252, 1) 23%,
+    rgba(249, 251, 254, 1) 100%
+  );
   border: 1px solid #dee8fc;
   padding: 24px;
   border-radius: 12px;

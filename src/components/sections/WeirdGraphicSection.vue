@@ -8,7 +8,7 @@ const { isMobile } = useWebWidth();
   <div
     class="flex flex-col justify-center items-center pb-[180px] px-4 section-bg"
   >
-    <h1 class="text-header-xl leading-10 text-center">
+    <h1 class="text-header-3xl text-gradient text-center">
       Effortless notes in 3 simple steps: <br />
       Record, click, and review!
     </h1>
